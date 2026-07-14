@@ -23,6 +23,10 @@
     padding: 0;
 }
 
+html {
+  font-size: clamp(0.9375rem, 0.8vw + 0.75rem, 1.125rem);
+}
+
 html, body {
     width: 100%;
     height: 100%;
@@ -34,6 +38,36 @@ html, body {
 
 body {
     margin-top: var(--navbar-height);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'rubik_dirtregular';
+}
+h1 {
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 2.0rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+h4 {
+    font-size: 1.25rem;
+}
+h5 {
+    font-size: 1.125rem;
+}
+h6 {
+    font-size: 1rem;
+}
+
+p {
+    font-family: 'nunitoextralight';
+    em {
+        font-family: 'nunitoextralight_italic';
+    }
+    font-size: 1rem;
 }
 
 .navbar {

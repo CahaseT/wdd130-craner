@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'rubik_dirtregular';
+    src: url('../fonts/rubikdirt-regular-webfont.woff2') format('woff2'),
+         url('../fonts/rubikdirt-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nunitoextralight_italic';
+    src: url('../nunito-italic-variablefont_wght-webfont.woff2') format('woff2'),
+         url('../nunito-italic-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nunitoextralight';
+    src: url('../fonts/nunito-variablefont_wght-webfont.woff2') format('woff2'),
+         url('../fonts/nunito-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
